@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  background-color: #C7C6C2;
+  /* font-family: 'Contrail One', cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Lato', sans-serif;
+}
+
+#logo{
+  width: 150px;
+  margin-right: 25px;
+  position: relative;
+  top: -50px;
+}
+
+.navbar{
+  /* background-image: url("../images/pattern.webp"); */
+  /* background-image: url("../images/pattern2.webp"); */
+  font-size: 18px;
+  padding: 35px;
+}
+
+.navbar-light{
+  /* background-color: #F3F3F3; */
+  background-color: white;
+}
+
+.nav-item a{
+  color: #FF4949;
+}
+
+.nav-item a:hover{
+  color: red;
+}
+
+.nav-button{
+  position: relative;
+  right: -200px;
+  background-color: #FF4949;
+}
+
+.nav-button:hover{
+  background-color: red;
+}
