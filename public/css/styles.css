@@ -37,7 +37,7 @@ body{
 
 .nav-item a:hover{
   color: red;
-  
+
 }
 
 .nav-button{
@@ -71,6 +71,10 @@ body{
 #inputEmail{
   border: none;
   height: 45px;
+}
+
+#inputEmail::placeholder{
+  font-weight: bold; 
 }
 
 /* Footer section */
