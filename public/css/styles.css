@@ -37,6 +37,7 @@ body{
 
 .nav-item a:hover{
   color: red;
+  
 }
 
 .nav-button{
@@ -65,6 +66,11 @@ body{
 /* Subscribe section */
 #subscribe-section{
   padding: 50px;
+}
+
+#inputEmail{
+  border: none;
+  height: 45px;
 }
 
 /* Footer section */
