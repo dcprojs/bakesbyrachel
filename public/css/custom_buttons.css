@@ -1,7 +1,7 @@
 /* custom button */
 
 .custom-btn{
-  width: 100px;
+  width: fit-content;
   height: 40px;
   background: none;
   border: none;
@@ -11,16 +11,14 @@
   transition: 0.2s;
   letter-spacing: 2px;
   border-radius: 0;
+  padding: 0 15px 0 15px;
 }
 
-.custom-btn .btn-sm{
-  width: 80px;
+.custom-btn.btn-sm{
   height: 30px;
-  border-radius: 0;
 }
 
-.custom-btn .btn-lg{
-  width: 120px;
+.custom-btn.btn-lg{
   height: 60px;
 }
 
