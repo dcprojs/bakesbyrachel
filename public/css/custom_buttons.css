@@ -1,0 +1,77 @@
+/* custom button */
+
+.custom-btn{
+  width: 100px;
+  height: 40px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  transition: 0.2s;
+  letter-spacing: 2px;
+  border-radius: 0;
+}
+
+.custom-btn .btn-sm{
+  width: 80px;
+  height: 30px;
+  border-radius: 0;
+}
+
+.custom-btn .btn-lg{
+  width: 120px;
+  height: 60px;
+}
+
+/* .custom-btn .btn-rounded{
+  border-radius: 4rem;
+} */
+
+.custom-btn .custom-btn:hover{
+  /* font-weight: 600; */
+}
+
+.btn-red{
+  background-color: #FF4949;
+  -webkit-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #FF4949;
+  -moz-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #FF4949;
+  box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #FF4949;
+}
+
+.btn-red:hover{
+  background-color: red;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px red;
+  -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px red;
+  box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px red;
+
+}
+
+.btn-red:active{
+  background-color: #d10404;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #d10404;
+  -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #d10404;
+  box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #d10404;
+}
+
+.btn-cyan{
+  background-color: #85ddd4;
+  -webkit-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
+  -moz-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
+  box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
+}
+
+.btn-cyan:hover{
+  background-color: #5ED7CB;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+  -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+  box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+
+}
+
+.btn-cyan:active{
+  background-color: #4abfb3;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+  -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+  box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+}
