@@ -1,0 +1,140 @@
+body {
+  background-color: #fff;
+}
+.carousel-inner {
+  text-align: center;
+}
+.carousel-img {
+  width: 100%;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  max-height: 600px;
+}
+
+.carousel-text-left {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+  height: 250px;
+  width: 400px;
+  color: #522615;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+.carousel-text-right {
+  position: absolute;
+  top: 28%;
+  right: 10%;
+  height: 250px;
+  width: 400px;
+  color: #522615;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.header-btn {
+  margin-top: 3%;
+  background-color: #522615;
+  color: #fff;
+}
+.about-us {
+  background-color: #fff;
+  font-family: "EB Garamond", serif;
+}
+
+.about-us-img {
+  width: 600px;
+  padding: 5%;
+}
+
+.about-us-text {
+  color: #522615;
+  float: right;
+  width: 50%;
+  padding: 9% 3%;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.cta {
+  background-color: #f9ccd1;
+  text-align: center;
+  color: #522615;
+  padding: 7%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cta-heading {
+  line-height: 1.5;
+  /* font-weight: 600; */
+}
+
+.download-btn {
+  margin: 1%;
+}
+
+.download-btn-color {
+  background-color: #ed7a7f;
+}
+
+#E7341E
+#FF2C22
+#ED7A7F
+#F9CCD1
+#522615
+#9D6239
+#541C1C
+#F3D09E
+
+/* .carousel-caption {
+  position: relative;
+  margin: auto;
+  z-index: 1;
+} 
+
+
+
+  .carousel-caption {
+  transform: translateY(-50%);
+  background-color: #F9CCD1;
+  position: relative;
+  /* top: 40%;
+  left: 10%;
+  padding-top: 5% ;
+  padding-left: 3%;
+  height: 250px;
+  width: 500px;
+  color: #522615;
+  text-align: left;
+} 
+
+.test{
+  background-color: #F9CCD1;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding-top: 5% ;
+  padding-left: 3%;
+  height: 250px;
+  width: 500px;
+  color: #522615;
+  text-align: left;
+} */
+
+.about-us-img-2 {
+  width: 100px;
+  padding: 3%;
+}
