@@ -69,6 +69,19 @@ h5 {
   text-align: justify;
 }
 
+.about-us-2{
+  padding: 5%;
+  background-color: #fff;
+}
+
+.about-us-img-2 {
+  padding: 1%;
+  width: 350px;
+  margin: 80px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: rotate(8deg);
+}
+
+
 .cta {
   background-color: #f9ccd1;
   text-align: center;
@@ -133,8 +146,3 @@ h5 {
   color: #522615;
   text-align: left;
 } */
-
-.about-us-img-2 {
-  width: 100px;
-  padding: 3%;
-}
