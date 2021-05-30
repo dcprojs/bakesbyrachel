@@ -8,7 +8,12 @@ body {
   background-color: #fff;
   /* font-family: 'Contrail One', cursive; */
   /* font-family: 'Roboto', sans-serif; */
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+  padding-top: 120px;
+>>>>>>> 4a711f97fbd684ef5b3a8cd48ecec1b7eb2583b7
 }
 
 #logo {
