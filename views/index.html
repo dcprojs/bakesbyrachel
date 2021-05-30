@@ -5,15 +5,25 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap  CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
+
     <link rel="stylesheet" href="../public/css/custom_buttons.css">
     <link rel="stylesheet" href="../public/css/styles.css">
+
   </head>
 
   <body>
 
     <!-- Header -->
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -28,13 +38,14 @@
           <li class="nav-item"><a href="/locations">LOCATIONS</a></li>
           <li class="nav-item"><a href="/celebratewithrachel">#CELEBRATEWITHRACHEL</a></li>
           <li class="dropdown nav-item">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              MORE
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li class="nav-item"><a href="/gallery">GALLERY</a></li>
-              <li class="nav-item"><a href="/hand_picked">HAND PICKED</a></li>
-            </ul>
+              <a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  MORE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="nav-item"><a class="dropdown-item" href="/gallery">GALLERY</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="/hand_picked">HAND PICKED</a></li>
+              </ul>
           </li>
           <li class="nav-item">
             <button class="custom-btn btn-red nav-button" type="button" name="button">ORDER</button>
@@ -52,6 +63,148 @@
 
         </div>
       </div>
+    </div>
+
+    <section id="header">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="http://susiecakes.com/app/uploads/2021/05/SC-Grad-Llama-Slider.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-text-left">
+              <h4>CELEBRATE THE GRADUATE</h4>
+              <h5>with Susie’s Signature Deco Cakes and Cupcakes!</h5>
+
+              <button type="button" class="btn btn-outline-light header-btn">
+                Order Now
+              </button>
+            </div>
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>
+                The sweetest place in town. <br />
+                Freshness baked all day. Every day!
+              </h5>
+              <button type="button" class="btn btn-outline-light header-btn">
+                Order Now
+              </button>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img
+              src="http://susiecakes.com/app/uploads/2021/05/SC-PBJ-Slider.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-text-left">
+              <h4>PEANUT BUTTER & JELLY CUPCAKES AVAILABLE</h4>
+              <h5 style="color: #ed7a7f">May 6th – May 30th</h5>
+              <button type="button" class="btn btn-outline-light header-btn">
+                Menu
+              </button>
+            </div>
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>There’s flavour for every thought.</h5>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img
+              src="http://susiecakes.com/app/uploads/2020/04/sc-7-layer-bar-slider.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-text-right">
+              <h4>7 LAYER BAKED BARS</h4>
+              <h5>
+                with chocolate and butterscotch chips, coconut and pecans on a
+                graham cracker crust
+              </h5>
+              <button type="button" class="btn btn-outline-light header-btn">
+                Order Now
+              </button>
+            </div>
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+            </div> -->
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="about-us container-fluid">
+        <img class="about-us-img" src="../public/images/about-us-img.png" alt="" />
+        <p class="about-us-text">
+          ABOUT SUSIECAKES <br />
+          Inspired by the classic recipes of her two beloved grandmothers,
+          Mildred and Madeline, Susie created a bakery that uses the finest,
+          simple ingredients and brings celebration into each and every day.
+        </p>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="cta coloured-section">
+        <h3 class="cta-heading">
+          A REWARDS PROGRAM THAT CELEBRATES YOU! <br />
+          Get TWO FREE CUPCAKES when you sign up for SusieFavors!
+        </h3>
+        <button type="button" class="btn btn-dark btn-lg download-btn">
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-lg download-btn download-btn-color"
+        >
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <div class="about-us-2">
+      <img class="about-us-img-2" src="../public/images/about-usimg-2.png" alt="" />
     </div>
 
     <div id="subscribe-section" class="container">
