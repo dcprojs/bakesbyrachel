@@ -69,7 +69,7 @@ h5 {
   text-align: justify;
 }
 
-.about-us-2{
+.about-us-2 {
   padding: 5%;
   background-color: #fff;
 }
@@ -77,10 +77,10 @@ h5 {
 .about-us-img-2 {
   padding: 1%;
   width: 350px;
-  margin: 80px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: rotate(8deg);
 }
-
 
 .cta {
   background-color: #f9ccd1;
@@ -103,14 +103,14 @@ h5 {
   background-color: #ed7a7f;
 }
 
-#E7341E
+/* #E7341E
 #FF2C22
 #ED7A7F
 #F9CCD1
 #522615
 #9D6239
 #541C1C
-#F3D09E
+#F3D09E */
 
 /* .carousel-caption {
   position: relative;
@@ -124,7 +124,7 @@ h5 {
   transform: translateY(-50%);
   background-color: #F9CCD1;
   position: relative;
-  /* top: 40%;
+  top: 40%;
   left: 10%;
   padding-top: 5% ;
   padding-left: 3%;
@@ -145,4 +145,4 @@ h5 {
   width: 500px;
   color: #522615;
   text-align: left;
-} */
+}  */
