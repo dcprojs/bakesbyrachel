@@ -8,12 +8,9 @@ body {
   background-color: #fff;
   /* font-family: 'Contrail One', cursive; */
   /* font-family: 'Roboto', sans-serif; */
-<<<<<<< HEAD
   font-family: "Lato", sans-serif;
-=======
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding-top: 120px;
->>>>>>> 4a711f97fbd684ef5b3a8cd48ecec1b7eb2583b7
 }
 
 #logo {
@@ -55,9 +52,9 @@ body {
 
 /* Carousel */
 
-.carousel-inner {
+/* .carousel-inner {
   padding-top: 10%;
-}
+} */
 
 .carousel-img {
   width: 100%;
@@ -70,7 +67,7 @@ body {
 
 .carousel-text-left {
   position: absolute;
-  top: 28%;
+  top: 32%;
   left: 10%;
   height: 250px;
   width: 400px;
@@ -81,7 +78,7 @@ body {
 
 .carousel-text-right {
   position: absolute;
-  top: 28%;
+  top: 32%;
   right: 10%;
   height: 250px;
   width: 400px;
@@ -92,18 +89,16 @@ body {
 
 h4 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
-.header-btn {
-  margin-top: 3%;
-  background-color: #522615;
-  color: #fff;
+.carousel-btn {
+  margin: 3%;
 }
 
 .about-us {
@@ -113,64 +108,46 @@ h5 {
 
 .about-us-text {
   color: #522615;
-  float: right;
+  margin: 10% 1%;
   width: 50%;
-  padding: 9% 3%;
   font-size: 2rem;
   text-align: justify;
 }
 
-.about-us-2 {
-  padding: 5%;
-  background-color: #fff;
-}
-
 .about-us-img-2 {
   padding: 1%;
-  width: 350px;
-  margin: 80px;
+  width: 300px;
+  margin: 8% 6%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: rotate(8deg);
 }
-/* .container {
-  margin: 0;
-}
 
-#cta {
-  padding: 0%;
-} */
+/* CTA */
 
 .cta {
-  background-color: #f9ccd1;
+  background-color: #f3d09e;
   font-family: "Montserrat", sans-serif;
 }
 
-.cta-heading {
+.cta-container {
+  text-align: center;
+}
+
+.cta-text {
   color: #522615;
   text-align: center;
-  padding: 7% 0%;
   line-height: 1.5;
   font-weight: 600;
+  font-size: 2rem;
+  margin: 4%;
 }
+
 .cta-img {
-  width: 300px;
+  width: fit-content;
 }
 
 .download-btn {
-  margin: 3%;
-}
-
-#footer .row {
-  margin-top: 40px;
-}
-
-.sub-title {
-  font-weight: bold;
-}
-
-.uppercase {
-  text-transform: uppercase;
-  margin-top: 15px;
+  margin: 4% 2%;
 }
 
 /* Subscribe section */
@@ -194,15 +171,8 @@ h5 {
   color: white;
 }
 
-#footer > div {
-}
-
 #footer a {
   color: #fff797;
-}
-
-#footer h5 a {
-  /* color: white; */
 }
 
 .footer-image {
@@ -211,6 +181,18 @@ h5 {
   box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
 }
 
+#footer .row {
+  margin-top: 40px;
+}
+
+.sub-title {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
 #copyrights {
   text-align: center;
   background-color: #de2c3e;
@@ -227,38 +209,3 @@ h5 {
 #9D6239
 #541C1C
 #F3D09E */
-
-/* .carousel-caption {
-  position: relative;
-  margin: auto;
-  z-index: 1;
-}
-
-
-
-  .carousel-caption {
-  transform: translateY(-50%);
-  background-color: #F9CCD1;
-  position: relative;
-  /* top: 40%;
-  left: 10%;
-  padding-top: 5% ;
-  padding-left: 3%;
-  height: 250px;
-  width: 500px;
-  color: #522615;
-  text-align: left;
-}
-
-.test{
-  background-color: #F9CCD1;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  padding-top: 5% ;
-  padding-left: 3%;
-  height: 250px;
-  width: 500px;
-  color: #522615;
-  text-align: left;
-} */
