@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+
+/* header navbar  */
+.nav-item{
+    padding: 0 10px;
+}
+
+.navbar{
+    padding: 0 50px;
+}
+
+
+/* About section */
+
+.banner{
+  background-image: url(../images/deco_image.jpg);
+}
+
+.no-padding{
+  padding: 0;
+}
