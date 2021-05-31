@@ -10,6 +10,7 @@ body {
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Lato", sans-serif;
   font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-top: 120px;
 }
 
@@ -51,10 +52,6 @@ body {
 }
 
 /* Carousel */
-
-/* .carousel-inner {
-  padding-top: 10%;
-} */
 
 .carousel-img {
   width: 100%;
