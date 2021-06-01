@@ -12,6 +12,36 @@ body {
   padding-top: 120px;
 }
 
+/* h4 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 1.7rem;
+  font-weight: 400;
+} */
+
+h1{
+  font-size: 4rem;
+  font-weight: 900;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+a{
+  color: #fff;
+}
+
+a:link{ text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none;  color: #fff;}
+a:active { text-decoration: none; }
+
+/* ----------------------------------------------------------------------------------- */
+/* Header navbar style */
 #logo {
   width: 150px;
   /* margin-right: 25px; */
@@ -62,6 +92,7 @@ body {
 }
 
 /* Carousel */
+/* ----------------------------------------------------------------------------------- */
 
 .carousel-img {
   width: 100%;
@@ -94,46 +125,56 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-h4 {
-  font-weight: 700;
-  font-size: 3rem;
-}
-
-h5 {
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-
 .carousel-btn {
   margin: 3%;
 }
 
+
 .about-us {
   background-color: #fff;
-  font-family: "EB Garamond", serif;
-}
+  /* font-family: "EB Garamond", serif; */
+} 
+
 
 .about-us-text {
   color: #522615;
   margin: 10% 1%;
-  width: 50%;
+  width: 70%;
   font-size: 2rem;
   text-align: justify;
+  text-indent: 2;
 }
 
 .about-us-img-2 {
-  padding: 1%;
+  padding: 3%;
   width: 300px;
   margin: 8% 6%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: rotate(8deg);
 }
 
+.cupcake-date{
+  color: #ed7a7f;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.highlight{
+
+  color: #de2c3e;
+  text-decoration: underline;
+}
 /* CTA */
+/* ----------------------------------------------------------------------------------- */
 
 .cta {
   background-color: #f3d09e;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .cta-container {
@@ -144,8 +185,8 @@ h5 {
   color: #522615;
   text-align: center;
   line-height: 1.5;
-  font-weight: 600;
-  font-size: 2rem;
+  /* font-weight: 600;
+  font-size: 2rem; */
   margin: 4%;
 }
 
@@ -158,6 +199,7 @@ h5 {
 }
 
 /* Subscribe section */
+/* ----------------------------------------------------------------------------------- */
 #subscribe-section {
   padding: 50px;
 }
@@ -172,6 +214,7 @@ h5 {
 }
 
 /* Footer section */
+/* ----------------------------------------------------------------------------------- */
 #footer {
   background-color: #ff485b;
   padding: 30px;

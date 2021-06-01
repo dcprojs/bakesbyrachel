@@ -1,35 +1,17 @@
-h1,h2,h3,p{
-    color: #962d2d;
-}
-body{
-    background-color: white;
-}
+
+
 /* header navbar  */
-.nav-item{
-    padding: 0 10px;
-}
-.nav-item a:link{ text-decoration: none; }
-.nav-item a:visited { text-decoration: none; }
-.nav-item a:hover { text-decoration: none; }
-.nav-item a:active { text-decoration: none; }
-
-
-.navbar{
-    padding: 0 50px;
-}
 
 
 /* About section */
-#enjoy-about{
+#header2{
     text-align: center;
- }
+}
 
-#enjoy-about .container-fluid{
+#header2 .container-fluid{
     padding: 5% 15%;
 }
-#enjoy-about a{
-    color:white;
-}
+
 .header2-bg{
     background-image: url(../images/R-about-header2.jpg);
     background-repeat: no-repeat;
@@ -42,21 +24,21 @@ body{
     margin: 0 20px 20px;
 }
 
+
 .header2-text{
     font-size: 3rem;
 
 }
 
 .header2-text-p{
-
     font-size: 1.5rem;
     text-indent: 2;
     line-height: 2;
 }
 
-#logo{
-    top: 0px;
-  }
+.left-align{
+    text-align: left;
+}
 /* Story section  */
 
 .jumbo-bg{
@@ -72,7 +54,7 @@ body{
 }
 
 .spoon-img{
-    width: 70%;
+    width: 80%;
     height: 80%;
 }
 #story .row{
