@@ -31,7 +31,7 @@
 }
 
 .header2-text-p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-indent: 2;
     line-height: 2;
 }
@@ -45,6 +45,7 @@
     background-image: url(../images/maccaroons2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .story-h1{

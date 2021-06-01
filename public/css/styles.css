@@ -10,7 +10,7 @@ body {
   /* font-family: 'Contrail One', cursive; */
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Lato", sans-serif;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 
 /* h4 {
@@ -54,9 +54,16 @@ a:active { text-decoration: none; }
   /* background-image: url("../images/pattern.webp"); */
   /* background-image: url("../images/pattern2.webp"); */
   font-size: 16px;
-  padding: 35px;
+  padding: 35px 50px;
   letter-spacing: 1px;
+
 }
+
+/* header navbar  */
+.nav-item{
+  padding: 0 10px;
+}
+
 
 .navbar-light {
   /* background-color: #F3F3F3; */
