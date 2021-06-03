@@ -1,0 +1,38 @@
+
+/* Menu jumbotron */
+.menu-img-head{
+    background-image: url(/public/images/menu-img.jpg);
+    background-repeat:repeat-x;
+}
+.menu-text{
+    color: white;
+    text-align: justify;
+}
+
+
+/* filter images ags - menu selector  */
+.selections-tabs{
+    margin: 0 10%;
+}
+
+#container-images-filter{
+    padding: 0 10%;
+}
+
+.container {
+    overflow: hidden;
+  }
+
+
+  .show {
+    display: block;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  
+  .column{
+    display: none; /* Hide columns by default */
+  }
