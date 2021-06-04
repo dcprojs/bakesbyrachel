@@ -32,7 +32,43 @@
     padding: 10px;
   }
 
-  
+
   .column{
     display: none; /* Hide columns by default */
   }
+
+
+  .btn-menu{
+    background-color:transparent;
+    color: #522615;
+    
+    /* -webkit-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
+    -moz-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
+    box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4; */
+  }
+  
+  .btn-menu:hover{
+    background-color: transparent;
+    color: #5ED7CB;
+    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+  
+  }
+  
+  .btn-menu:active{
+    background-color: transparent;
+    color: #5ED7CB;
+    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
+  }
+
+.btn-menu:focus{
+    background-color: #4abfb3;
+    color: white;
+    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+}
+  

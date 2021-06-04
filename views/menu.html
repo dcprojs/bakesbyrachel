@@ -63,13 +63,32 @@
 
   </section>
 <section id="container-images-filter">  
+
+
   <div class=" containter-fluid center py-1">
     <div id="myBtnContainer" class="container-fluid btn-group py-4 " role="group">
-      <button type="button" class="btn custom-btn btn-red mx-4 " onclick="filterSelection('all')"> Show all</button>
-      <button type="button" class="btn custom-btn btn-red mx-4 " onclick="filterSelection('CAKES')"> CAKES</button>
-      <button type="button" class="btn custom-btn btn-red mx-4" onclick="filterSelection('CUP')"> CUPCAKES</button>
-      <button type="button" class="btn custom-btn btn-red mx-4" onclick="filterSelection('COOKIES')"> COOKIES & BARS</button>
-      <button type="button" class="btn custom-btn btn-red mx-4" onclick="filterSelection('PIES')"> PIES & PUDDINGS</button>
+      <button type="button" class="btn custom-btn  btn-menu btn-lg .bg-transparent mx-4 active" onclick="filterSelection('all')">
+        <H3>Show all</H3> </button>
+      <button type="button" class="btn custom-btn btn-lg btn-menu mx-4 " onclick="filterSelection('CAKES')">
+        <div >
+          <img src="../public/images/cake.png" alt="">
+          <h3>CAKES</h3>
+        </div>
+         </button>
+      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('CUP')"> 
+         <img src="/public/images/cupcake.png" alt=""> 
+        <h3>CUPCAKES</h3>  
+        
+      </button>
+      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('COOKIES')"> 
+        <img src="/public/images/cookie.png" alt="">
+        <h3>COOKIES & BARS</h3>
+      </button>
+      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('PIES')">
+        <img src="/public/images/pie.png" alt="">
+        <h3>PIES & PUDDINGS</h3>
+        
+        </button>
     </div>
   </div>
 
@@ -244,7 +263,7 @@
     </button>
   </div>
 
-
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   <!-- Footer -->
   <iframe id="footer" src="footer.html" scrolling="no"></iframe>
 
