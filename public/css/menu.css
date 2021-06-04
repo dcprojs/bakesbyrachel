@@ -1,14 +1,20 @@
 
 /* Menu jumbotron */
-.menu-img-head{
+/* .menu-img-head{
     background-image: url(/public/images/menu-img.jpg);
     background-repeat:repeat-x;
-}
+    background-size: cover;
+} */
 .menu-text{
     color: white;
     text-align: justify;
 }
-
+.jumbo-bg{
+  background-image: url(../images/menu-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
 
 /* filter images ags - menu selector  */
 .selections-tabs{

@@ -45,14 +45,22 @@
   <iframe id="header" src="header.html" scrolling="no"></iframe>
   <!--  Menu Nav Bar -->
 
-  <section id="menu-header">
+  <section id="menu-header ">
 
-    <div class="container-fluid rounded-3 jumbotron menu-img-head">
+    <!-- <div class="container-fluid rounded-3 jumbotron jumbo-bg menu-img-head">
       <div class=" center menu-text py-5">
         <h1 class="center text-center">MENU</h1>
       </div>
 
-    </div>
+    </div> -->
+    <div class="container-fluid  ">
+      <div class="p-5 mb-4 bg-light rounded-3 jumbo-bg jumbotron ">
+          <div class="container-fluid py-5 menu-text ">
+              <div>
+                  <h1 class="text-center ">MENU</h1>
+              </div>
+          </div>
+      </div>
 
   </section>
 
@@ -65,30 +73,57 @@
 <section id="container-images-filter">  
 
 
-  <div class=" containter-fluid center py-1">
+  <!-- <div class=" containter-fluid center py-1">
     <div id="myBtnContainer" class="container-fluid btn-group py-4 " role="group">
-      <button type="button" class="btn custom-btn  btn-menu btn-lg .bg-transparent mx-4 active" onclick="filterSelection('all')">
+      <button type="button" class="btn custom-btn  btn-menu btn-lg  mx-4 active" onclick="filterSelection('all')">
         <H3>Show all</H3> </button>
       <button type="button" class="btn custom-btn btn-lg btn-menu mx-4 " onclick="filterSelection('CAKES')">
-        <div >
+        <div>
           <img src="../public/images/cake.png" alt="">
           <h3>CAKES</h3>
         </div>
          </button>
       <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('CUP')"> 
-         <img src="/public/images/cupcake.png" alt=""> 
-        <h3>CUPCAKES</h3>  
-        
+        <div>         
+          <img src="../public/images/cupcake.png" alt=""> 
+          <h3>CUPCAKES</h3>  
+        </div>
       </button>
       <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('COOKIES')"> 
-        <img src="/public/images/cookie.png" alt="">
+        <img src="../public/images/cookie.png" alt="">
         <h3>COOKIES & BARS</h3>
       </button>
       <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('PIES')">
-        <img src="/public/images/pie.png" alt="">
+        <img src="../public/images/pie.png" alt="">
         <h3>PIES & PUDDINGS</h3>
-        
         </button>
+    </div>
+  </div> -->
+
+  <div class=" container-fluid py-5 text-center">
+    <div  id="myBtnContainer" class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+      <div class="col"><button type="button" class="btn custom-btn  btn-menu btn-lg  mx-4 active" onclick="filterSelection('all')">
+        <H3>Show all</H3> </button></div>
+      <div class="col"><button type="button" class="btn custom-btn btn-lg btn-menu mx-4 " onclick="filterSelection('CAKES')">
+        <div>
+          <img src="../public/images/cake.png" alt="">
+          <h3>CAKES</h3>
+        </div>
+         </button></div>
+      <div class="col">      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('CUP')"> 
+        <div>         
+          <img src="../public/images/cupcake.png" alt=""> 
+          <h3>CUPCAKES</h3>  
+        </div>
+      </button></div>
+      <div class="col">      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('COOKIES')"> 
+        <img src="../public/images/cookie.png" alt="">
+        <h3>COOKIES & BARS</h3>
+      </button></div>
+      <div class="col">      <button type="button" class="btn custom-btn btn-menu btn-lg mx-4" onclick="filterSelection('PIES')">
+        <img src="../public/images/pie.png" alt="">
+        <h3>PIES & PUDDINGS</h3>
+        </button></div>
     </div>
   </div>
 
@@ -263,10 +298,10 @@
     </button>
   </div>
 
-  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
   <!-- Footer -->
   <iframe id="footer" src="footer.html" scrolling="no"></iframe>
-
+ 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
