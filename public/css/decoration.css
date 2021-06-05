@@ -5,6 +5,8 @@
 
 .banner{
   background-image: url(../images/deco_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .no-padding{
