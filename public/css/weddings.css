@@ -8,7 +8,6 @@
     left: 7%;
     top: 35%;
     width: 45%;
-
 }
 
 
@@ -17,8 +16,8 @@
 .service-text {
     font-size: 2.5rem;
     font-weight: 600;
-    padding: 5%;
-
+    padding: 3%;
+    text-align: center;
 }
 
 .fa-heart {
@@ -26,13 +25,8 @@
     padding-right: 1%;
 }
 
-.service-cont {
-    margin: 5%;
-    
-}
-
-.row-padding {
-    padding: 1% auto;
+.col-text {
+    padding-left: 5%;
 }
 
 .container-2 {
@@ -51,4 +45,24 @@
     position: relative;
     color: #FFF;
     padding: 1% 0;
+}
+
+
+/* Cards */
+
+.tasting-text {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 7%;
+    text-align: center;
+}
+
+.col {
+    padding: 1%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
