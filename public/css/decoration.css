@@ -12,3 +12,7 @@
 .no-padding{
   padding: 0;
 }
+
+#image-rows img{
+  background-size: cover;
+}
