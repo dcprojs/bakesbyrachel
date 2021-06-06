@@ -10,7 +10,7 @@ body {
   /* font-family: 'Contrail One', cursive; */
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Lato", sans-serif;
-  /* padding-top: 120px; */
+  padding-top: 120px;
 }
 
 /* h4 {
@@ -48,6 +48,7 @@ a:active { text-decoration: none; }
   /* margin-right: 25px; */
   position: relative;
   top: -40px;
+  left: -50px;
 }
 
 .navbar {
@@ -81,6 +82,8 @@ a:active { text-decoration: none; }
 
 .nav-button {
   background-color: #ff4949;
+  position: relative;
+  left: 50px;
 }
 
 .nav-button:hover {
@@ -141,7 +144,7 @@ a:active { text-decoration: none; }
 .about-us {
   background-color: #fff;
   /* font-family: "EB Garamond", serif; */
-} 
+}
 
 
 .about-us-text {
