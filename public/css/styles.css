@@ -234,6 +234,18 @@ a:active {
   color: #fff797;
 }
 
+@media screen and (max-width: 1400px) {
+  #footer .col-md-5, .col-md-2{
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #footer .col-md-5, .col-md-2{
+    margin-left: 100px;
+  }
+}
+
 .footer-image {
   -webkit-box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
