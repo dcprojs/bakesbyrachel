@@ -22,29 +22,21 @@
 
 .fa-heart {
     color: #ed7a7f;
-    padding-right: 1%;
+    padding-right: 1.5%;
+}
+
+.banner {
+    position: relative;
+    color: #FFF;
+    padding: 1% 0;
+}
+
+.row {
+    padding: 0 10% 0 20%;
 }
 
 .col-text {
-    padding-left: 5%;
-}
-
-.container-2 {
-    position: relative;
-    color: #FFF;
-    padding: 1% 0;
-}
-
-.container-3 {
-    position: relative;
-    color: #FFF;
-    padding: 1% 0;
-}
-
-.container-4 {
-    position: relative;
-    color: #FFF;
-    padding: 1% 0;
+    padding: 2%;
 }
 
 
