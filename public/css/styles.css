@@ -238,11 +238,26 @@ a:active {
   #footer .col-md-5, .col-md-2{
     margin-left: 80px;
   }
+  .carousel-item h1{
+    font-size: 40px;
+  }
+  .carousel-item h2{
+    font-size: 20px;
+  }
+  .custom-btn{
+    height: 30px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   #footer .col-md-5, .col-md-2{
     margin-left: 100px;
+  }
+  .carousel-item h1{
+    font-size: 25px;
+  }
+  .carousel-item h2{
+    font-size: 15px;
   }
 }
 
