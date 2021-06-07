@@ -261,6 +261,7 @@ a:active {
 }
 
 @media screen and (max-width: 1400px) {
+<<<<<<< HEAD
     #footer .col-md-5,
     .col-md-2 {
         margin-left: 80px;
@@ -287,6 +288,39 @@ a:active {
     .carousel-item h2 {
         font-size: 15px;
     }
+=======
+  #footer .col-md-5, .col-md-2{
+    margin-left: 80px;
+  }
+  .carousel-item h1{
+    font-size: 40px;
+  }
+  .carousel-item h2{
+    font-size: 20px;
+  }
+  .custom-btn{
+    height: 30px;
+  }
+  .carousel-text-right{
+    position: absolute;
+    left: 580px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #footer .col-md-5, .col-md-2{
+    margin-left: 100px;
+  }
+  .carousel-item h1{
+    font-size: 25px;
+  }
+  .carousel-item h2{
+    font-size: 15px;
+  }
+  .carousel-text-right{
+    left: 450px;
+  }
+>>>>>>> 35fd9703d5ef89d000313cfde4e5d19b3daf68d3
 }
 
 .footer-image {
