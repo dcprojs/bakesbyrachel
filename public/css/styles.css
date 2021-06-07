@@ -247,6 +247,10 @@ a:active {
   .custom-btn{
     height: 30px;
   }
+  .carousel-text-right{
+    position: absolute;
+    left: 580px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -258,6 +262,9 @@ a:active {
   }
   .carousel-item h2{
     font-size: 15px;
+  }
+  .carousel-text-right{
+    left: 450px;
   }
 }
 
