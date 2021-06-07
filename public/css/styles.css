@@ -50,7 +50,7 @@ a:active {
   /* margin-right: 25px; */
   position: relative;
   top: -30px;
-  left: -60px;
+  /* left: -60px; */
 }
 
 .navbar {
@@ -73,6 +73,10 @@ a:active {
   background-color: white;
 }
 
+.navbar .collapse{
+  margin-left: 50px;
+}
+
 .nav-item a {
   color: #ff4949;
   text-decoration: none;
@@ -86,7 +90,7 @@ a:active {
   background-color: #ff4949;
   position: relative;
   top: 5px;
-  left: 100px;
+  left: 180px;
 }
 
 .nav-button:hover {
@@ -228,6 +232,18 @@ a:active {
 
 #footer a {
   color: #fff797;
+}
+
+@media screen and (max-width: 1400px) {
+  #footer .col-md-5, .col-md-2{
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #footer .col-md-5, .col-md-2{
+    margin-left: 100px;
+  }
 }
 
 .footer-image {
