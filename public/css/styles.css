@@ -265,7 +265,7 @@ a:active {
     .col-md-2 {
         margin-left: 80px;
     }
-    .carousel-item h1 {
+    /* .carousel-item h1 {
         font-size: 40px;
     }
     .carousel-item h2 {
@@ -273,7 +273,7 @@ a:active {
     }
     .custom-btn {
         height: 30px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1000px) {
@@ -281,7 +281,7 @@ a:active {
     .col-md-2 {
         margin-left: 100px;
     }
-    .carousel-item h1 {
+    /* .carousel-item h1 {
         font-size: 25px;
     }
     .carousel-item h2 {
@@ -303,15 +303,15 @@ a:active {
     .carousel-text-right {
         position: absolute;
         left: 580px;
-    }
+    } */
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     #footer .col-md-5,
     .col-md-2 {
         margin-left: 100px;
     }
-    .carousel-item h1 {
+    /* .carousel-item h1 {
         font-size: 25px;
     }
     .carousel-item h2 {
@@ -320,13 +320,13 @@ a:active {
     .carousel-text-right {
         left: 450px;
     }
-    >>>>>>>35fd9703d5ef89d000313cfde4e5d19b3daf68d3
+    >>>>>>>35fd9703d5ef89d000313cfde4e5d19b3daf68d3 */
 }
 
 .footer-image {
-    -webkit-box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
-    box-shadow: 36px 3px 5px 4px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
 }
 
 #footer .row {
