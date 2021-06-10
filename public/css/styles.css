@@ -16,12 +16,12 @@ body {
 /* Carousel */
 
 h1 {
-    font-size: 5rem;
+    font-size: 2.5vw;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.3vw;
     font-weight: 500;
 }
 
@@ -167,8 +167,8 @@ a:active {
 
 .about-us-text {
     color: #522615;
-    margin: 20% 10%;
-    width: 70%;
+    margin: 10% 5%;
+    width: 40%;
     text-align: justify;
     text-indent: 2;
 }
@@ -261,8 +261,7 @@ a:active {
 }
 
 @media screen and (max-width: 1400px) {
-<<<<<<< HEAD
-    #footer .col-md-5,
+    <<<<<<< HEAD #footer .col-md-5,
     .col-md-2 {
         margin-left: 80px;
     }
@@ -288,39 +287,40 @@ a:active {
     .carousel-item h2 {
         font-size: 15px;
     }
-=======
-  #footer .col-md-5, .col-md-2{
-    margin-left: 80px;
-  }
-  .carousel-item h1{
-    font-size: 40px;
-  }
-  .carousel-item h2{
-    font-size: 20px;
-  }
-  .custom-btn{
-    height: 30px;
-  }
-  .carousel-text-right{
-    position: absolute;
-    left: 580px;
-  }
+    =======#footer .col-md-5,
+    .col-md-2 {
+        margin-left: 80px;
+    }
+    .carousel-item h1 {
+        font-size: 40px;
+    }
+    .carousel-item h2 {
+        font-size: 20px;
+    }
+    .custom-btn {
+        height: 30px;
+    }
+    .carousel-text-right {
+        position: absolute;
+        left: 580px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  #footer .col-md-5, .col-md-2{
-    margin-left: 100px;
-  }
-  .carousel-item h1{
-    font-size: 25px;
-  }
-  .carousel-item h2{
-    font-size: 15px;
-  }
-  .carousel-text-right{
-    left: 450px;
-  }
->>>>>>> 35fd9703d5ef89d000313cfde4e5d19b3daf68d3
+    #footer .col-md-5,
+    .col-md-2 {
+        margin-left: 100px;
+    }
+    .carousel-item h1 {
+        font-size: 25px;
+    }
+    .carousel-item h2 {
+        font-size: 15px;
+    }
+    .carousel-text-right {
+        left: 450px;
+    }
+    >>>>>>>35fd9703d5ef89d000313cfde4e5d19b3daf68d3
 }
 
 .footer-image {
