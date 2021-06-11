@@ -1,0 +1,31 @@
+.image-banner-happy{
+    background-image: url("../images/happybanner.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: auto;
+    text-align: center;
+    filter:hue-rotate(1);
+    font-size-adjust: inherit;
+    font-weight: 900;
+}
+
+.padding-lf{
+    padding: 20px 15%;
+}
+.image-story{
+    height: auto;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    border: 2;
+    border-style: solid;
+}
+a{
+    color: blueviolet;
+}
+a:hover{
+    color: #ff485b;
+}
+.pink-col{
+    color: #ff485b;
+}
