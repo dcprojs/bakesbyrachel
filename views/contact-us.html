@@ -35,7 +35,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../public/css/custom_buttons.css" />
   <link rel="stylesheet" href="../public/css/styles.css" />
-  <link rel="stylesheet" href="../public/css/location.css" />
+  <link rel="stylesheet" href="../public/css/contact-us.css" />
   <link rel="stylesheet" href="../public/css/header.css" />
 
 </head>
@@ -74,51 +74,57 @@
     </nav>
   </section>
 
-  <section id="location-header ">
+  <!-- Header -->
+  <section id="menu-header ">
+    <!-- <div class="container-fluid rounded-3 jumbotron jumbo-bg menu-img-head">
+      <div class=" center menu-text py-5">
+        <h1 class="center text-center">MENU</h1>
+      </div>
 
+    </div> -->
     <div class="container-fluid  ">
       <div class="p-5 mb-4 bg-light rounded-3 jumbo-bg jumbotron ">
           <div class="container-fluid py-5 menu-text ">
               <div>
-                  <h1 class="text-center ">LOCATION</h1>
+                  <h1 class="text-center ">CONTACT US</h1>
               </div>
           </div>
       </div>
-
   </section>
 
-  <section id="map-section">
+  <form action="" method="POST">
+    <div class="row">
+        <div class="col-lg-3"></div>
+    
+        <div class="col-lg-6">
+    
+            <label for="nameInput" class="form-label mt-4">Your Name:</label>
+            <input type="text" class="form-control form-control-lg" id="nameInput" placeholder="Name">
+    
+            <label for="emailInput" class="form-label mt-4">Your Email:</label>
+            <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="Email Address">
+    
+            <label for="subjectInput" class="form-label mt-4">Subject:</label>
+            <input type="text" class="form-control form-control-lg" id="subjectInput" placeholder="Subject">
+    
+            <label for="messageInput" class="form-label mt-4">Your Message:</label>
+            <textarea class="form-control form-control-lg" id="messageInput" rows="8"></textarea>
 
-    <div class="container-fluid row">
+            <input type="submit" class="btn btn-primary btn-lg mt-4 mb-4" onclick="sendMsg();" value="Send">
 
-      <div class="col-sm-12 col-md-9">
-        <!-- Google MAP -->
-        <div id="map"></div>
+    
+          </div>
+    
+          <div class="col-lg-3"></div>
       </div>
+  </form>
 
-      <div class="col-sm-6 col-md-3">
-        <div class="card">
-            <img src="../public/images/map-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">BAKES BY RACHEL</h5>
-                <p class="card-text">The Ansonia, 2109 Broadway, Upper West Side.</p>
-            </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <script src="../public/script/location.js" type="text/javascript"></script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6y9Qhewe9Da9zveTsleR5ONSpwc87Bz0&callback=initMap&libraries=&v=weekly" async></script>
-
-  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script> -->
-
-
+    <script>
+        function sendMsg(){
+          alert("Message successfully sent.");
+        }
+    </script>
+    
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
