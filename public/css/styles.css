@@ -261,7 +261,7 @@ a:active {
 }
 
 @media screen and (max-width: 1400px) {
-    <<<<<<< HEAD #footer .col-md-5,
+     #footer .col-md-5,
     .col-md-2 {
         margin-left: 80px;
     }
