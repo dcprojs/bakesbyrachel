@@ -1,3 +1,24 @@
+#logo{
+    top: 0px;
+}
+.navbar{
+    padding: 0 35px ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.nav-item {
+    padding: 15px 10px 0;
+    left: 0px;
+}
+.nav-button {
+    background-color: #ff4949;
+    /* position: relative; */
+    top: -10px;
+    left: 120px;
+}
+
+
 .image-banner-happy{
     background-image: url("../images/happybanner.jpg");
     background-size:cover;
@@ -21,6 +42,7 @@
     border-style: solid;
 }
 a{
+    padding: 15px;
     color: blueviolet;
 }
 a:hover{

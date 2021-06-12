@@ -16,12 +16,12 @@ body {
 /* Carousel */
 
 h1 {
-    font-size: 2.5vw;
+    font-size: 4rem;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 1.3vw;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
@@ -167,9 +167,9 @@ a:active {
 
 .about-us-text {
     color: #522615;
-    margin: 10% 5%;
-    width: 40%;
-    text-align: justify;
+    width: 500px;
+    margin: 8% 0%;
+    text-align: left;
     text-indent: 2;
 }
 
@@ -261,7 +261,7 @@ a:active {
 }
 
 @media screen and (max-width: 1400px) {
-    <<<<<<< HEAD #footer .col-md-5,
+     #footer .col-md-5,
     .col-md-2 {
         margin-left: 80px;
     }
@@ -274,6 +274,15 @@ a:active {
     .custom-btn {
         height: 30px;
     } */
+}
+
+@media screen and (max-width: 380px) {
+    h1 {
+        font-size: 0.5rem;
+    }
+    h2 {
+        font-size: 0.2rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {

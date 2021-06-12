@@ -1,16 +1,27 @@
 /* Deco section */
 
-.banner{
-  background-image: url(../images/deco_image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
+.banner {
+    background-image: url(../images/deco_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.no-padding{
-  padding: 0;
+.no-padding {
+    padding: 0;
 }
 
-#image-rows img{
-  background-size: cover;
+#image-rows img {
+    background-size: cover;
+}
+
+.container-1 {
+    position: relative;
+    color: #FFF;
+}
+
+.first-text {
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    width: 45%;
 }
