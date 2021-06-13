@@ -3,24 +3,27 @@
 
 <head>
     <meta charset="utf-8" />
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <title>Home</title>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap  CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 
@@ -32,19 +35,24 @@
     <!-- Header -->
     <!-- Navbar -->
     <section id="nav">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img id="logo" src="../public/images/logo4.webp" alt="logo" />
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+        <div class="container position-relative">
+            <nav class="navbar navbar-expand-xl fixed-top navbar-light">
+                <a class="navbar-brand " href="./index.html">
+                    <img class="img-fluid " id="logo" src="../public/images/logo4.webp" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav nav-item">
-                        <li class="nav-item active"><a href="./about.html">ABOUT</a></li>
+                <div class="  collapse navbar-collapse position-absolute top-50  start-50 translate-middle px-5"
+                    id="navbarSupportedContent">
+                    <a class="navbar-brand " href="#">
+                    </a>
+                    <br>
+                    <br>
+                    <ul class=" navbar-nav ">
+                        <li class="nav-item "><a href="./about.html">ABOUT</a></li>
                         <li class="nav-item"><a href="./menu.html">MENU</a></li>
                         <li class="nav-item"><a href="./weddings.html">WEDDINGS</a></li>
                         <li class="nav-item"><a href="./decoration.html">DECORATION</a></li>
@@ -53,68 +61,76 @@
                             <a href="./celebrate.html">#CELEBRATEWITHRACHEL</a>
                         </li>
                         <li class="nav-item">
-                            <button class="custom-btn btn-red nav-button" type="button" name="button">
-                              CONTACT US
-                            </button>
+                            <button class="custom-btn btn-red nav-button" type="button" name="button"> 
+                                <a href="./contact-us.html">
+                                    <p class="contact-us-btn">CONTACT US</p>
+                                </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </section>
+
 
     <section id="header">
         <div id="carousel-header" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="http://susiecakes.com/app/uploads/2021/05/SC-Grad-Llama-Slider.jpg" class="d-block w-100" alt="..." />
+                    <img src="http://susiecakes.com/app/uploads/2021/05/SC-Grad-Llama-Slider.jpg"
+                        class="d-block w-100 h-100" alt="..." />
                     <div class="carousel-text-left">
                         <h1>CELEBRATE THE GRADUATE</h1>
                         <h2>with Susie’s Signature Deco Cakes and Cupcakes!</h25>
-                            <br><br>
+                            <br>
                             <button type="button" class="carousel-btn custom-btn btn-red">
                                 CONTACT US
                             </button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://susiecakes.com/app/uploads/2021/05/SC-PBJ-Slider.jpg" class="d-block w-100" alt="..." />
+                    <img src="http://susiecakes.com/app/uploads/2021/05/SC-PBJ-Slider.jpg" class="d-block w-100 h-100"
+                        alt="..." />
                     <div class="carousel-text-left">
                         <h1>PEANUT BUTTER & JELLY CUPCAKES AVAILABLE</h1>
                         <h2 class="cupcake-date">May 6th – May 30th</h2>
-                        <br><br>
+                        <br>
                         <button type="button" class="carousel-btn custom-btn btn-red">
-              Menu
-            </button>
+                            Menu
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://susiecakes.com/app/uploads/2020/04/sc-7-layer-bar-slider.jpg" class="d-block w-100" alt="..." />
+                    <img src="http://susiecakes.com/app/uploads/2020/04/sc-7-layer-bar-slider.jpg"
+                        class="d-block w-100 h-100" alt="..." />
                     <div class="carousel-text-right">
                         <h1>7 LAYER BAKED BARS</h1>
                         <h2>
                             with chocolate and butterscotch chips, coconut and pecans on a graham cracker crust
                         </h2>
-                        <br><br>
+                        <br>
                         <button type="button" class="carousel-btn custom-btn btn-red">
-              Order Now
-            </button>
+                            Order Now
+                        </button>
                     </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-header" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carousel-header" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -127,7 +143,9 @@
                 <div class="col-lg-6 col-md-4 col-sm-12 about-us-text">
                     <h1> ABOUT RACHELSCAKES </h1>
                     <h2>
-                        Inspired by the classic recipes of her two beloved grandmothers, Mildred and Madeline, Susie created a bakery that uses the finest, simple ingredients and brings celebration into each and every day.
+                        Inspired by the classic recipes of her two beloved grandmothers, Mildred and Madeline, Susie
+                        created a bakery that uses the finest, simple ingredients and brings celebration into each and
+                        every day.
                     </h2>
                 </div>
             </div>
@@ -141,15 +159,16 @@
                     <div class="cta-text">
                         <h2 class="bold"> A REWARDS PROGRAM THAT CELEBRATES YOU!</h2>
                         <br /><br>
-                        <h2> Get <span class="highlight"> TWO FREE CUPCAKES </span> when you sign up for SusieFavors!</h2>
+                        <h2> Get <span class="highlight"> TWO FREE CUPCAKES </span> when you sign up for SusieFavors!
+                        </h2>
 
                     </div>
                     <button type="button" class="custom-btn btn-red download-btn">
-            <i class="fab fa-apple"></i> Download
-          </button>
+                        <i class="fab fa-apple"></i> Download
+                    </button>
                     <button type="button" class="custom-btn btn-cyan download-btn">
-            <i class="fab fa-google-play"></i> Download
-          </button>
+                        <i class="fab fa-google-play"></i> Download
+                    </button>
                 </div>
                 <div class="cta-container col-lg-6">
                     <img class="cta-img" src="../public/images/cta.png" alt="" />
@@ -176,12 +195,12 @@
     <!-- Footer -->
     <div id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row ">
+                <div class="col-md-4 ">
                     <img class="footer-image" src="http://susiecakes.com/app/uploads/2016/01/footer-susie.png" alt="" />
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-6 ">
                     <h4 class="sub-title uppercase">Custom Orders</h4>
                     <h5>
                         Would you like to place a Custom Order or have a special request?
@@ -194,7 +213,7 @@
                     <a href="" class="sub-title uppercase">rachel@bakesbyrachel.com</a>
                 </div>
 
-                <div class="col-md-2">
+                <div class=" col-md-2 ">
                     <h5 class="uppercase"><a href="">Rachels Cakes</a></h5>
                     <h5 class="uppercase"><a href="">About</a></h5>
                     <h5 class="uppercase"><a href="">Menu</a></h5>
@@ -210,8 +229,5 @@
     <div id="copyrights" class="container-fluid">
         <p>Copyright © Rachel Cakes 2021</p>
     </div>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -16,17 +16,25 @@ body {
 /* Carousel */
 
 h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 3vw;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2vw;
     font-weight: 500;
+}
+h3{
+    font-size: 1.7vw;
+}
+h4,h5,h6,p{
+    font-size: 1.5vw;
 }
 
 a {
     color: #fff;
+    font-size: 1vw;
 }
 
 a:link {
@@ -56,7 +64,7 @@ a:active {
     width: 140px;
     /* margin-right: 25px; */
     position: relative;
-    top: -30px;
+    /* top: -30px; */
     /* left: -60px; */
 }
 
@@ -64,17 +72,17 @@ a:active {
     /* background-image: url("../images/pattern.webp"); */
     /* background-image: url("../images/pattern2.webp"); */
     font-size: 16px;
-    padding: 30px 35px;
-    letter-spacing: 1px;
+    padding: 0px 35px;
+    letter-spacing: 1.5px;
 }
 
 
 /* header navbar  */
 
 .nav-item {
-    padding: 0 10px;
+    padding: 10px 10px 0;
     position: relative;
-    left: -20px;
+    /* left: -20px; */
 }
 
 .navbar-light {
@@ -82,9 +90,9 @@ a:active {
     background-color: white;
 }
 
-.navbar .collapse {
+/* .navbar .collapse {
     margin-left: 50px;
-}
+} */
 
 .nav-item a {
     color: #ff4949;
@@ -97,9 +105,10 @@ a:active {
 
 .nav-button {
     background-color: #ff4949;
+
     position: relative;
-    top: 5px;
-    left: 180px;
+    top: -5px;
+    /* left: 180px;  */
 }
 
 .nav-button:hover {
@@ -118,7 +127,10 @@ a:active {
 .top-banner a {
     color: white;
 }
-
+.contact-us-btn{
+    color: #fff;
+    font-size: 0.8rem;
+}
 
 /* Carousel */
 
@@ -260,82 +272,81 @@ a:active {
     color: #fff797;
 }
 
-@media screen and (max-width: 1400px) {
-     #footer .col-md-5,
-    .col-md-2 {
-        margin-left: 80px;
-    }
-    /* .carousel-item h1 {
-        font-size: 40px;
-    }
-    .carousel-item h2 {
-        font-size: 20px;
-    }
-    .custom-btn {
-        height: 30px;
-    } */
-}
 
-@media screen and (max-width: 380px) {
-    h1 {
+/* 
+@media (min-width: 1400px) {
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+
+} */
+/* large  */
+/* @media (min-width: 992px) and (max-width: 1400px) {
+        #footer .col-md-5,
+        .col-md-2 {
+        margin-left: 80px;
+            }
+        
+        h1{
+            font-size: 3.5rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+} */
+
+
+/* medium */
+/* @media (min-width: 768px) and (max-width: 991.98px){
+    #footer .col-md-5,
+    .col-md-2 {
+        margin-left: 100px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+} */
+
+  
+/* small  */
+ /* @media (min-width: 576px) and (max-width: 768px) {
+    #footer .col-md-5,
+    .col-md-2 {
+        margin-left: 100px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
         font-size: 0.5rem;
     }
-    h2 {
-        font-size: 0.2rem;
-    }
 }
 
-@media screen and (max-width: 1000px) {
-    #footer .col-md-5,
-    .col-md-2 {
-        margin-left: 100px;
+@media (max-width: 576px) {
+    h1{
+        font-size: 2rem;
     }
-    /* .carousel-item h1 {
-        font-size: 25px;
+    h2{
+        font-size: 0.5rem;
     }
-    .carousel-item h2 {
-        font-size: 15px;
-    }
-    =======#footer .col-md-5,
-    .col-md-2 {
-        margin-left: 80px;
-    }
-    .carousel-item h1 {
-        font-size: 40px;
-    }
-    .carousel-item h2 {
-        font-size: 20px;
-    }
-    .custom-btn {
-        height: 30px;
-    }
-    .carousel-text-right {
-        position: absolute;
-        left: 580px;
-    } */
-}
 
-@media screen and (max-width: 500px) {
-    #footer .col-md-5,
-    .col-md-2 {
-        margin-left: 100px;
-    }
-    /* .carousel-item h1 {
-        font-size: 25px;
-    }
-    .carousel-item h2 {
-        font-size: 15px;
-    }
-    .carousel-text-right {
-        left: 450px;
-    }
-    >>>>>>>35fd9703d5ef89d000313cfde4e5d19b3daf68d3 */
-}
+} */
+
 
 .footer-image {
     -webkit-box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
     box-shadow: 16px 3px 5px 4px rgba(0, 0, 0, 0.53);
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: 30px;
 }
 
 #footer .row {
@@ -359,7 +370,7 @@ a:active {
     text-align: center;
     background-color: #de2c3e;
     color: white;
-    height: 50px;
+
     padding: 15px 0 0 25px;
 }
 
