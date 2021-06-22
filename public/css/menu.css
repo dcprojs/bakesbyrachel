@@ -1,15 +1,9 @@
 
-/* Menu jumbotron */
-/* .menu-img-head{
-    background-image: url(/public/images/menu-img.jpg);
-    background-repeat:repeat-x;
-    background-size: cover;
-} */
-.menu-text{
-    color: white;
-    text-align: justify;
+.menu-text {
+  color: white;
+  text-align: justify;
 }
-.jumbo-bg{
+.jumbo-bg {
   background-image: url(../images/menu-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,64 +11,59 @@
 }
 
 /* filter images ags - menu selector  */
-.selections-tabs{
-    margin: 0 10%;
+.selections-tabs {
+  margin: 0 10%;
 }
 
-#container-images-filter{
-    padding: 0 10%;
+#container-images-filter {
+  padding: 0 10%;
 }
 
 .container {
-    overflow: hidden;
-  }
-
-
-  .show {
-    display: block;
+  overflow: hidden;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
 .content {
-    background-color: white;
-    padding: 10px;
-  }
-
-
-  .column{
-    display: none; /* Hide columns by default */
-  }
-
-
-  .btn-menu{
-    background-color:transparent;
-    color: #522615;
-    
-    /* -webkit-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
-    -moz-box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4;
-    box-shadow: inset 0px 0px 0px 1px white, 0px 0px 0px 5px #85ddd4; */
-  }
-  
-  .btn-menu:hover{
-    background-color: transparent;
-    color: #5ED7CB;
-    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
-    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
-    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
-  
-  }
-  
-  .btn-menu:active{
-    background-color: transparent;
-    color: #5ED7CB;
-    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
-    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
-    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #4abfb3;
-  }
-
-.btn-menu:focus{
-    background-color: #4abfb3;
-    color: white;
-    -webkit-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
-    -moz-box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
-    box-shadow: inset 0px 0px 0px 2px white, 0px 0px 0px 5px #5ED7CB;
+  background-color: white;
+  padding: 10px;
 }
-  
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.btn-menu {
+  background-color: transparent;
+  color: #522615;
+}
+
+.btn-menu:hover {
+  background-color: transparent;
+  color: #5ed7cb;
+}
+
+.btn-menu:active {
+  background-color: transparent;
+  color: #5ed7cb;
+}
+
+.btn-menu:focus {
+  background-color: transparent;
+  color: red;
+  box-shadow: none;
+}
