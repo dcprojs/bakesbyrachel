@@ -1,3 +1,1 @@
-# bakesbyrachel
-Bakery
-<a href="bakesbyrachel.netlify.app">latest production</a>
+<a href="https://bakesbyrachel.netlify.app/">latest production</a>
