@@ -1,0 +1,69 @@
+
+.menu-text {
+  color: white;
+  text-align: justify;
+}
+.jumbo-bg {
+  background-image: url(../images/menu-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* filter images ags - menu selector  */
+.selections-tabs {
+  margin: 0 10%;
+}
+
+#container-images-filter {
+  padding: 0 10%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.btn-menu {
+  background-color: transparent;
+  color: #522615;
+}
+
+.btn-menu:hover {
+  background-color: transparent;
+  color: #5ed7cb;
+}
+
+.btn-menu:active {
+  background-color: transparent;
+  color: #5ed7cb;
+}
+
+.btn-menu:focus {
+  background-color: transparent;
+  color: red;
+  box-shadow: none;
+}
