@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>BakedByRachel Menu</title>
+
+  <!-- Bootstrap 3 -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./public/css/custom_buttons.css" />
+  <link rel="stylesheet" href="./public/css/styles.css" />
+  <link rel="stylesheet" href="./public/css/contact-us.css" />
+  <link rel="stylesheet" href="./public/css/header.css" />
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="nav">
+    <div class="container position-relative">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light">
+                <a class="navbar-brand " href="./index.html">
+                    <img class="img-fluid " id="logo" src="./public/images/logo4.webp" alt="logo" />
+                </a>                 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="  collapse navbar-collapse position-absolute top-50  start-50 translate-middle px-5" id="navbarSupportedContent">
+                    <a class="navbar-brand " href="#">
+                    </a>
+                    <br>
+                    <br>
+                    <ul class=" navbar-nav ">
+                        <li class="nav-item "><a href="./about.html">ABOUT</a></li>
+                        <li class="nav-item"><a href="./menu.html">MENU</a></li>
+                        <li class="nav-item"><a href="./weddings.html">WEDDINGS</a></li>
+                        <li class="nav-item"><a href="./decoration.html">DECORATION</a></li>
+                        <li class="nav-item"><a href="./location.html">LOCATION</a></li>
+                        <li class="nav-item">
+                            <a href="./celebrate.html">#CELEBRATEWITHRACHEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="custom-btn btn-red nav-button" type="button" name="button"> CONTACT US
+                        </li>
+                    </ul>
+                </div>               
+        </nav>
+    </div>
+</section>
+
+  <!-- Header -->
+  <section id="menu-header ">
+    <!-- <div class="container-fluid rounded-3 jumbotron jumbo-bg menu-img-head">
+      <div class=" center menu-text py-5">
+        <h1 class="center text-center">MENU</h1>
+      </div>
+
+    </div> -->
+    <div class="container-fluid  ">
+      <div class="p-5 mb-4 bg-light rounded-3 jumbo-bg jumbotron ">
+          <div class="container-fluid py-5 menu-text ">
+              <div>
+                  <h1 class="text-center ">CONTACT US</h1>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <form action="" method="POST">
+    <div class="row">
+        <div class="col-lg-3"></div>
+    
+        <div class="col-lg-6">
+    
+            <label for="nameInput" class="form-label mt-4">Your Name:</label>
+            <input type="text" class="form-control form-control-lg" id="nameInput" placeholder="Name">
+    
+            <label for="emailInput" class="form-label mt-4">Your Email:</label>
+            <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="Email Address">
+    
+            <label for="subjectInput" class="form-label mt-4">Subject:</label>
+            <input type="text" class="form-control form-control-lg" id="subjectInput" placeholder="Subject">
+    
+            <label for="messageInput" class="form-label mt-4">Your Message:</label>
+            <textarea class="form-control form-control-lg" id="messageInput" rows="8"></textarea>
+
+            <input type="submit" class="btn btn-primary btn-lg btn-red mt-4 mb-4" onclick="sendMsg();" value="Send">
+
+    
+          </div>
+    
+          <div class="col-lg-3"></div>
+      </div>
+  </form>
+
+    <script>
+        function sendMsg(){
+          alert("Message successfully sent.");
+        }
+    </script>
+    
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+        <!-- Footer -->
+        <div id="footer">
+          <div class="container">
+              <div class="row ">
+                  <div class="col-md-4 ">
+                    <img class="footer-image" src="./public/images/footer-susie.png" alt="" />
+                  </div>
+  
+                  <div class="col-md-6 ">
+                      <h4 class="sub-title uppercase">Custom Orders</h4>
+                      <h5>
+                          Would you like to place a Custom Order or have a special request?
+                      </h5>
+                      <a href="" class="sub-title uppercase">Contact your nearest location</a>
+                      <h4 class="sub-title uppercase">Tell Rachel</h4>
+                      <h5>
+                          Have feedback about our products or service? <br /> Please contact Susie directly at:
+                      </h5>
+                      <a href="" class="sub-title uppercase">rachel@bakesbyrachel.com</a>
+                  </div>
+  
+                  <div class=" col-md-2 ">
+                      <h5 class="uppercase"><a href="">Rachels Cakes</a></h5>
+                      <h5 class="uppercase"><a href="">About</a></h5>
+                      <h5 class="uppercase"><a href="">Menu</a></h5>
+                      <h5 class="uppercase"><a href="">Weddings</a></h5>
+                      <h5 class="uppercase"><a href="">Decoration</a></h5>
+                      <h5 class="uppercase"><a href="">Locations</a></h5>
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+  
+      <div id="copyrights" class="container-fluid">
+          <p>Copyright © Rachel Cakes 2021</p>
+      </div>
+</body>
+
+
+</html>

@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu-text{
+    color: white;
+    text-align: justify;
+}
+
+.jumbo-bg{
+  background-image: url(../images/location-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#map{
+  height: 600px;
+  width: 100%;
+}

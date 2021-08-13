@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>BakedByRachel Menu</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- font awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../public/css/custom_buttons.css" />
+  <link rel="stylesheet" href="../public/css/styles.css" />
+  <link rel="stylesheet" href="../public/css/menu.css" />
+
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="nav">
+    <div class="container position-relative">
+      <nav class="navbar navbar-expand-xl fixed-top navbar-light">
+        <a class="navbar-brand " href="./index.html">
+          <img class="img-fluid " id="logo" src="../public/images/logo4.webp" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="  collapse navbar-collapse position-absolute top-50  start-50 translate-middle px-5"
+          id="navbarSupportedContent">
+          <a class="navbar-brand " href="#">
+          </a>
+          <br>
+          <br>
+          <ul class=" navbar-nav ">
+            <li class="nav-item "><a href="./about.html">ABOUT</a></li>
+            <li class="nav-item"><a href="./menu.html">MENU</a></li>
+            <li class="nav-item"><a href="./weddings.html">WEDDINGS</a></li>
+            <li class="nav-item"><a href="./decoration.html">DECORATION</a></li>
+            <li class="nav-item"><a href="./location.html">LOCATION</a></li>
+            <li class="nav-item">
+              <a href="./celebrate.html">#CELEBRATEWITHRACHEL</a>
+            </li>
+            <li class="nav-item">
+              <button class="custom-btn btn-red nav-button" type="button" name="button"> <a href="./contact-us.html">
+                  <p class="contact-us-btn">CONTACT US</p>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!--  Menu Nav Bar -->
+
+  <section id="menu-header ">
+    <div class="container-fluid  ">
+      <div class="p-5 mb-4 bg-light rounded-3 jumbo-bg jumbotron ">
+        <div class="container-fluid py-5 menu-text ">
+          <div>
+            <h1 class="text-center ">MENU</h1>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Portfolio Gallery with Filtering section -->
+  <section id="container-images-filter">
+
+    <div class=" container-fluid py-5 text-center">
+      <div id="myBtnContainer" class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+        <div class="col">
+          <button type="button" class="btn custom-btn  btn-menu btn-lg  mx-4 active" onclick="filterSelection('all')">
+            <H3>Show all</H3>
+          </button></div>
+        <div class="col"><button type="button" class="btn custom-btn btn-lg btn-menu mx-4 "
+            onclick="filterSelection('CAKES')">
+            <div>
+              <img src="../public/images/cake.png" alt="">
+              <h3>CAKES</h3>
+            </div>
+          </button></div>
+        <div class="col"> <button type="button" class="btn custom-btn btn-menu btn-lg mx-4"
+            onclick="filterSelection('CUP')">
+            <div>
+              <img src="../public/images/cupcake.png" alt="">
+              <h3>CUPCAKES</h3>
+            </div>
+          </button></div>
+        <div class="col"> <button type="button" class="btn custom-btn btn-menu btn-lg mx-4"
+            onclick="filterSelection('COOKIES')">
+            <img src="../public/images/cookie.png" alt="">
+            <h3>COOKIES & BARS</h3>
+          </button></div>
+        <div class="col"> <button type="button" class="btn custom-btn btn-menu btn-lg mx-4"
+            onclick="filterSelection('PIES')">
+            <img src="../public/images/pie.png" alt="">
+            <h3>PIES & PUDDINGS</h3>
+          </button></div>
+      </div>
+    </div>
+<br><br>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row row-cols-3">
+      <div class=" CAKES column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cake2.jpg" alt="" style="width:100%">
+          <h2>CAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class=" CAKES column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cake2.jpg" alt="" style="width:100%">
+          <h2>CAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class=" CAKES column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cake2.jpg" alt="" style="width:100%">
+          <h2>CAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class=" CUP column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cupcakes.jpg" alt="" style="width:100%">
+          <h2>CUPCAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class=" CUP column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cupcakes.jpg" alt="" style="width:100%">
+          <h2>CUPCAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="CUP column">
+        <div class="content">
+          <img src="./public/images/SC_menu-cupcakes.jpg" alt="" style="width:100%">
+          <h2>CUPCAKES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="COOKIES column">
+        <div class="content">
+          <img src="./public/images/SC-menu-cookies-03.2017.jpg" alt="" style="width:100%">
+          <h2>COOKIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="COOKIES column">
+        <div class="content">
+          <img src="./public/images/SC-menu-cookies-03.2017.jpg" alt="" style="width:100%">
+          <h2>COOKIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="COOKIES column">
+        <div class="content">
+          <img src="./public/images/SC-menu-cookies-03.2017.jpg" alt="" style="width:100%">
+          <h2>COOKIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="PIES column">
+        <div class="content">
+          <img src="./public/images/SC-april-2017-seasonal-pie-menu.jpg" alt=""  style="width:100%">
+          <h2>PIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="PIES column">
+        <div class="content">
+          <img src="./public/images/SC-april-2017-seasonal-pie-menu.jpg" alt=""  style="width:100%">
+          <h2>PIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="PIES column">
+        <div class="content">
+          <img src="./public/images/SC-april-2017-seasonal-pie-menu.jpg" alt=""  style="width:100%">
+          <h2>PIES</h2>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <!-- END GRID -->
+    </div>
+
+    <script>
+      filterSelection("all") // Execute the function and show all columns
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn-menu");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+
+  </section>
+
+
+  <!-- CTA -->
+  <div class="jumbotron mp-0 bg-white text-center">
+    <h2>See our FAQs for Serving Recommendations</h2>
+    <br>
+    <h3>Contact Your Nearest Bakery to Submit a Custom Order Inquiry</h3>
+    <button type="button" class="carousel-btn custom-btn btn-red">
+      FIND YOUR LOCAL BAKERY
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4 ">
+          <img class="footer-image" src="./public/images/footer-susie.png" alt="" />
+        </div>
+
+        <div class="col-md-6 ">
+          <h4 class="sub-title uppercase">Custom Orders</h4>
+          <h5>
+            Would you like to place a Custom Order or have a special request?
+          </h5>
+          <a href="" class="sub-title uppercase">Contact your nearest location</a>
+          <h4 class="sub-title uppercase">Tell Rachel</h4>
+          <h5>
+            Have feedback about our products or service? <br /> Please contact Susie directly at:
+          </h5>
+          <a href="" class="sub-title uppercase">rachel@bakesbyrachel.com</a>
+        </div>
+
+        <div class=" col-md-2 ">
+          <h5 class="uppercase"><a href="">Rachels Cakes</a></h5>
+          <h5 class="uppercase"><a href="">About</a></h5>
+          <h5 class="uppercase"><a href="">Menu</a></h5>
+          <h5 class="uppercase"><a href="">Weddings</a></h5>
+          <h5 class="uppercase"><a href="">Decoration</a></h5>
+          <h5 class="uppercase"><a href="">Locations</a></h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="copyrights" class="container-fluid">
+    <p>Copyright © Rachel Cakes 2021</p>
+  </div>
+
+</body>
+
+
+
+</html>
